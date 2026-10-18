@@ -1,0 +1,6 @@
+.DS_Store
+*.tmp
+assets/slide_*.png
+assets/page_*.png
+assets/idea_page_*.png
+assets/logo_cropped.png
