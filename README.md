@@ -33,18 +33,6 @@
 
 ---
 
-## 🌐 Деплой на GitHub Pages
-
-1. В репозитории [dashkared/auracheck-website](https://github.com/dashkared/auracheck-website) перейдите в **Settings** → **Pages** (в левой панели).
-2. В разделе **Build and deployment**:
-   - **Source**: выберите `Deploy from a branch`.
-   - **Branch**: выберите ветку `main` и папку `/(root)`.
-   - Нажмите **Save**.
-3. Через ~30 секунд сайт будет доступен по адресу:  
-   👉 **https://dashkared.github.io/auracheck-website/**
-
----
-
 ## 👥 Команда проекта (Финансовый университет при Правительстве РФ)
 
 - **Сивенков Константин Станиславович** — Лидер проекта (`+7 (934) 014-66-22`, `251290@edu.fa.ru`)
