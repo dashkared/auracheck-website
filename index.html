@@ -43,11 +43,11 @@
       </a>
 
       <ul class="nav-links">
-        <li><a href="#product-demo" class="nav-link">Демо интерфейса</a></li>
+        <li><a href="#product-demo" class="nav-link">Демо</a></li>
         <li><a href="#problem" class="nav-link">Проблема</a></li>
         <li><a href="#solution" class="nav-link">Решение</a></li>
         <li><a href="#comparison" class="nav-link">Сравнение</a></li>
-        <li><a href="#market" class="nav-link">Рынок и экономика</a></li>
+        <li><a href="#market" class="nav-link">Рынок</a></li>
         <li><a href="#tariffs" class="nav-link">Тарифы</a></li>
         <li><a href="#roadmap" class="nav-link">Дорожная карта</a></li>
         <li><a href="#team" class="nav-link">Команда</a></li>
@@ -134,8 +134,8 @@
 
         <div class="stat-card">
           <div class="stat-number">1,25 <span class="unit">млрд ₽</span></div>
-          <div class="stat-label">Потенциал рынка (PAM)</div>
-          <div class="stat-detail">22 705 адвокатских кабинетов и 1 028 бюро по всей территории России</div>
+          <div class="stat-label">TAM (100% рынка)</div>
+          <div class="stat-detail">Потолок подписки на CRM для адвокатуры (22 705 кабинетов и 1 028 бюро)</div>
         </div>
       </div>
     </div>
@@ -756,26 +756,20 @@
       <div class="market-grid">
         <div class="market-card">
           <div class="market-type">TAM (Общий рынок)</div>
-          <div class="market-value">392 <span style="font-size:1rem;color:var(--accent-gold)">млрд ₽</span></div>
-          <div class="market-desc">Совокупный объем юридического рынка РФ (рост +41% за 5 лет)</div>
+          <div class="market-value">1,25 <span style="font-size:1.1rem;color:var(--accent-gold)">млрд ₽</span></div>
+          <div class="market-desc">Потолок подписки на CRM для адвокатуры (100% рынка адвокатуры: 22 705 кабинетов и 1 028 бюро)</div>
         </div>
 
         <div class="market-card">
-          <div class="market-type">SAM (LegalTech сегмент)</div>
-          <div class="market-value">3–4 <span style="font-size:1rem;color:var(--accent-gold)">млрд ₽</span></div>
-          <div class="market-desc">Сегмент ПО для управления юридической практикой и практикой адвокатов</div>
+          <div class="market-type">SAM (Доступный сегмент)</div>
+          <div class="market-value">499–624 <span style="font-size:1.1rem;color:var(--accent-gold)">млн ₽/год</span></div>
+          <div class="market-desc">Адвокатские образования РФ, готовые к переходу на специализированные решения и On-Premises</div>
         </div>
 
-        <div class="market-card">
-          <div class="market-type">PAM (100% Адвокатура)</div>
-          <div class="market-value">1,25 <span style="font-size:1rem;color:var(--accent-gold)">млрд ₽</span></div>
-          <div class="market-desc">22 705 адвокатских кабинетов + 1 028 бюро и коллегий в РФ</div>
-        </div>
-
-        <div class="market-card">
-          <div class="market-type">SOM (Цель 3-й год)</div>
-          <div class="market-value">54–76 <span style="font-size:1rem;color:var(--accent-gold)">млн ₽</span></div>
-          <div class="market-desc">Захват 3,5–5% целевого сегмента (~970–1366 платящих клиентов)</div>
+        <div class="market-card featured-som">
+          <div class="market-type">SOM (3-й год проекта)</div>
+          <div class="market-value" style="color:var(--accent-gold)">15–31 <span style="font-size:1.1rem;color:#fff">млн ₽/год</span></div>
+          <div class="market-desc">«АураЧек», плановый захват 3–5% SAM на 3-й год развития</div>
         </div>
       </div>
 
@@ -784,30 +778,30 @@
         <div class="calc-grid">
           <div class="calc-controls">
             <h4>Калькулятор прогноза ARR для инвесторов</h4>
-            <p>Настройте долю охвата целевого сегмента адвокатских образований в РФ:</p>
+            <p>Настройте долю охвата целевого сегмента адвокатских образований в РФ (захват 3–5% SAM):</p>
             
             <div class="slider-group">
               <div class="slider-label">
-                <span>Охват рынка адвокатских кабинетов (всего 22 705 шт.):</span>
-                <span class="calc-val" id="cabCountVal">900 кабинетов (4.0%)</span>
+                <span>Охват рынка адвокатских кабинетов:</span>
+                <span class="calc-val" id="cabCountVal">350 кабинетов (1.5%)</span>
               </div>
-              <input type="range" id="cabSlider" min="100" max="2500" step="50" value="900">
+              <input type="range" id="cabSlider" min="50" max="600" step="10" value="350">
             </div>
 
             <div class="slider-group">
               <div class="slider-label">
-                <span>Охват адвокатских бюро и коллегий (всего 1 028 шт.):</span>
-                <span class="calc-val" id="buroCountVal">70 бюро (6.8%)</span>
+                <span>Охват адвокатских бюро и коллегий:</span>
+                <span class="calc-val" id="buroCountVal">35 бюро (3.4%)</span>
               </div>
-              <input type="range" id="buroSlider" min="10" max="200" step="5" value="70">
+              <input type="range" id="buroSlider" min="5" max="80" step="5" value="35">
             </div>
           </div>
 
           <div class="calc-result-panel">
             <div class="calc-result-label">Прогнозируемая годовая выручка (ARR):</div>
-            <div class="calc-result-number" id="calcArrTotal">54 003 600 ₽</div>
+            <div class="calc-result-number" id="calcArrTotal">22 213 800 ₽</div>
             <div style="font-size:0.85rem;color:var(--text-secondary)">
-              Ежемесячный повторяющийся доход (MRR): <strong style="color:#fff;" id="calcMrrTotal">4 500 300 ₽</strong>
+              Ежемесячный повторяющийся доход (MRR): <strong style="color:#fff;" id="calcMrrTotal">1 851 150 ₽</strong>
             </div>
 
             <div class="calc-metrics-row">
@@ -935,14 +929,14 @@
         <div class="roadmap-card">
           <div class="roadmap-year">
             <span>2029</span>
-            <span class="roadmap-revenue-pill">Выручка 54–76 млн ₽</span>
+            <span class="roadmap-revenue-pill">Выручка 15–31 млн ₽/год</span>
           </div>
           <div class="roadmap-title">Масштабирование в РФ</div>
           <ul class="roadmap-list">
             <li><strong>I кв:</strong> Сквозная автоматизация сопряжения с КИС АР</li>
             <li><strong>II кв:</strong> Распределенная сетевая инфраструктура Hyperledger</li>
             <li><strong>III кв:</strong> Экспансия во все 89 субъектов РФ</li>
-            <li><strong>IV кв:</strong> Достижение цели 970–1366 клиентов (до 5% SOM)</li>
+            <li><strong>IV кв:</strong> Достижение цели: захват 3–5% SAM (15–31 млн ₽/год)</li>
           </ul>
         </div>
       </div>
