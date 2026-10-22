@@ -241,7 +241,7 @@ function handleLeadSubmit(event) {
         <div style="font-size:3rem;margin-bottom:12px;">✅</div>
         <h3 style="font-size:1.5rem;font-weight:800;margin-bottom:8px;">Спасибо, ${escapeHtml(name)}!</h3>
         <p style="color:var(--text-secondary);font-size:0.95rem;margin-bottom:24px;">
-          Запрос успешно отправлен лидеру проекта (Константину Сивенкову). Инвестиционный меморандум и презентация будут высланы на <strong>${escapeHtml(email)}</strong> и в контакт <strong>${escapeHtml(contact)}</strong> в течение нескольких минут.
+          Запрос успешно отправлен команде проекта. Инвестиционный меморандум и презентация будут высланы на <strong>${escapeHtml(email)}</strong> и в контакт <strong>${escapeHtml(contact)}</strong> в течение нескольких минут.
         </p>
         <button class="btn btn-primary" onclick="closePitchModal()">Закрыть</button>
       </div>
